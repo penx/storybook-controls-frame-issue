@@ -10,7 +10,7 @@ export interface ButtonProps {
   /** How large should the button be? */
   size?: 'small' | 'medium' | 'large';
   /** Button contents */
-  label: string;
+  label: string | React.ReactNode;
   /** Optional click handler */
   onClick?: () => void;
 }
